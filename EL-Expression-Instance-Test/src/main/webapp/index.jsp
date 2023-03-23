@@ -1,7 +1,7 @@
 <%@page import="com.jdc.tls.UserDataTwo"%>
 <%@ page import="com.jdc.tls.UserData"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+	pageEncoding="UTF-8"%>	
 <!DOCTYPE html>
 <html>
 <head>

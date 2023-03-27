@@ -53,6 +53,11 @@
 		</c:forEach>
 
 	</section>
+	
+	<section>
+		<c:forEach >
+		</c:forEach>
+	</section>
 
 </body>
 </html>

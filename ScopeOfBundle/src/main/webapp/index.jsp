@@ -31,6 +31,8 @@
 			<li><a href="?lang=ja">Japanese</a></li>
 		</ul>
 	</section>
+	
+	
 
 </body>
 </html>

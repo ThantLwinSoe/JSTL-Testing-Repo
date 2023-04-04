@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<taglib>
+	<tlib-version>3.0</tlib-version>
+	<jsp-version>3.0</jsp-version>
+	
+	<tag>
+		<name>hello</name>
+		<tag-class>com.jdc.tls.custom.tags.TestCustomTag</tag-class>
+	</tag>
+	
+	<tag>
+		<name>forBootstrap</name>
+		<tag-class>com.jdc.tls.custom.tags.TestBootstrap</tag-class>
+	</tag>
+	
+	<tag>
+		<name>customAttribute</name>
+		<tag-class>com.jdc.tls.custom.tags.TestAttributeEl</tag-class>
+		<attribute>
+			<name>subTitle</name>
+			<type>java.lang.String</type>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+	
+	<tag>
+		<name>form</name>
+		<tag-class>com.jdc.tls.custom.tags.TestFormAttribute</tag-class>
+		<attribute>
+			<name>label</name>
+			<type>java.lang.String</type>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		
+		<attribute>
+			<name>name</name>
+			<type>java.lang.String</type>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		
+		<attribute>
+			<name>placeholder</name>
+			<type>java.lang.String</type>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+</taglib>
